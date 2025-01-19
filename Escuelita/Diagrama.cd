@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Escuelita.Alumno">
+    <Position X="6.75" Y="3.25" Width="1.5" />
+    <InheritanceLine Type="Escuelita.Persona" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.625" Y="3.25" />
+        <Point X="5.625" Y="3.004" />
+        <Point X="7.562" Y="3.004" />
+        <Point X="7.562" Y="3.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAEAAAACIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\Alumno.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Escuelita.Clase">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <InheritanceLine Type="Escuelita.Escuela" FixedFromPoint="true">
+      <Path>
+        <Point X="3.5" Y="4.997" />
+        <Point X="3.5" Y="5.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAgAAAAAAAABAAAAAAABAQAAA=</HashCode>
+      <FileName>Clases\Clase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Escuelita.Curso">
+    <Position X="8.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAQAQAAAAAAAAIAAAAAAAAAAAAACIAAABAAACA=</HashCode>
+      <FileName>Clases\Curso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Escuelita.Persona">
+    <Position X="4.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAIEgAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\Persona.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Escuelita.Profesor">
+    <Position X="8.5" Y="3.25" Width="1.5" />
+    <InheritanceLine Type="Escuelita.Persona" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.375" Y="3.25" />
+        <Point X="5.375" Y="2.886" />
+        <Point X="9.312" Y="2.886" />
+        <Point X="9.312" Y="3.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAIAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\Profesor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Escuelita.Escuela">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\Escuela.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
