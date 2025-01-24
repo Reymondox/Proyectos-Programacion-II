@@ -6,6 +6,7 @@ namespace CalculadoraArea
     {
         static void Main(string[] args)
         {
+            //Creamos una instancia en arreglo de la clase padre y de las clases hijas
             Shape[] forma1 = new Shape[]
             {
             new Circle(15),
@@ -19,8 +20,11 @@ namespace CalculadoraArea
             new Rectangle(15, 10),
            };
 
+            //Creamos un arreglo calcArea con el tamaño de la cantidad de objetos creados
             double[] calcArea = new double[forma1.Length];
 
+
+            //Obtenemos el calculo con el metodo propio y guardamos los resultados en el arreglo calcArea
             for (int i = 0; i < forma1.Length; i++)
             {
                 calcArea[i] = forma1[i].CalculateSurface();
