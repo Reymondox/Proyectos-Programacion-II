@@ -1,34 +1,21 @@
 ﻿using CalculoSueldo.Clases;
-using System.Runtime.InteropServices;
 namespace CalculoSueldo
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Sueldo[] sueldo = new Sueldo[] {
-                new SueldoHora(168),
-                new SueldoHora(121),
-                new SueldoHora(160),
+            Nomina nomina = new Nomina();
 
-                new ContratoFijo(38),
-                new ContratoFijo(45),
+            nomina.AgregarEmpleado(new EmpleadoPorHora("Carlos","Pérez", "123-45-6789", 124));
+            nomina.AgregarEmpleado(new EmpleadoFijo("Ana","Gómez", "987-65-4321", 72000, 35, 31, 0));
+            nomina.AgregarEmpleado(new EmpleadoFijo("Juan", "Rodríguez", "654-32-1987", 72000, 35, 35, 10));
+            nomina.AgregarEmpleado(new EmpleadoPorHora("Luis", "Martínez", "456-78-9012", 130));
+            nomina.AgregarEmpleado(new EmpleadoFijo("Maria", "Cespedes", "884-01-9471", 91000, 35, 35, 10));
+            nomina.AgregarEmpleado(new EmpleadoAdministrativo("Antonio", "Guzman", "904-01-4932", 85000, 34, 35, 10));
+            nomina.AgregarEmpleado(new EmpleadoAdministrativo("Martin", "Gutierrez", "905-53-3014", 81000, 35, 35, 10));
 
-                new ContratoAdministrativo(74),
-                new ContratoAdministrativo(61)
-            };
-
-            double[] calcSueldo = new double[sueldo.Length];
-
-            for (int i = 0; i < sueldo.Length; i++)
-            {
-                calcSueldo[i] = sueldo[i].CalcularSueldo();
-            }
-
-            Console.WriteLine("Calculo de sueldo:");
-            for (int i = 0;i < sueldo.Length; i++) {
-                Console.WriteLine($"Sueldo bruto {i + 1}: RD$ {calcSueldo[i]}");
+            nomina.RealizarNomina();
         }
     }
-}
 }

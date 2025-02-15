@@ -1,0 +1,14 @@
+C:\Users\Swunt\source\repos\CalculoSueldoSol\CalculoSueldo\obj\Debug\net8.0\CalculoSueldo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Swunt\source\repos\CalculoSueldoSol\CalculoSueldo\obj\Debug\net8.0\CalculoSueldo.AssemblyInfoInputs.cache
+C:\Users\Swunt\source\repos\CalculoSueldoSol\CalculoSueldo\obj\Debug\net8.0\CalculoSueldo.AssemblyInfo.cs
+C:\Users\Swunt\source\repos\CalculoSueldoSol\CalculoSueldo\obj\Debug\net8.0\CalculoSueldo.csproj.CoreCompileInputs.cache
+C:\Users\Swunt\source\repos\CalculoSueldoSol\CalculoSueldo\bin\Debug\net8.0\CalculoSueldo.exe
+C:\Users\Swunt\source\repos\CalculoSueldoSol\CalculoSueldo\bin\Debug\net8.0\CalculoSueldo.deps.json
+C:\Users\Swunt\source\repos\CalculoSueldoSol\CalculoSueldo\bin\Debug\net8.0\CalculoSueldo.runtimeconfig.json
+C:\Users\Swunt\source\repos\CalculoSueldoSol\CalculoSueldo\bin\Debug\net8.0\CalculoSueldo.dll
+C:\Users\Swunt\source\repos\CalculoSueldoSol\CalculoSueldo\bin\Debug\net8.0\CalculoSueldo.pdb
+C:\Users\Swunt\source\repos\CalculoSueldoSol\CalculoSueldo\obj\Debug\net8.0\CalculoSueldo.dll
+C:\Users\Swunt\source\repos\CalculoSueldoSol\CalculoSueldo\obj\Debug\net8.0\refint\CalculoSueldo.dll
+C:\Users\Swunt\source\repos\CalculoSueldoSol\CalculoSueldo\obj\Debug\net8.0\CalculoSueldo.pdb
+C:\Users\Swunt\source\repos\CalculoSueldoSol\CalculoSueldo\obj\Debug\net8.0\CalculoSueldo.genruntimeconfig.cache
+C:\Users\Swunt\source\repos\CalculoSueldoSol\CalculoSueldo\obj\Debug\net8.0\ref\CalculoSueldo.dll

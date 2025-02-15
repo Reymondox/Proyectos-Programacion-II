@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CalculoSueldo.Clases.Empleado">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAEAAAggAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\Empleado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculoSueldo.Clases.EmpleadoAdministrativo">
+    <Position X="5.25" Y="4" Width="2" />
+    <InheritanceLine Type="CalculoSueldo.Clases.EmpleadoFijo" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.5" Y="5.146" />
+        <Point X="8.5" Y="5.627" />
+        <Point X="7.51" Y="5.627" />
+        <Point X="7.51" Y="3.622" />
+        <Point X="6.167" Y="3.622" />
+        <Point X="6.167" Y="4" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Clases\EmpleadoAdministrativo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculoSueldo.Clases.EmpleadoFijo">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <InheritanceLine Type="CalculoSueldo.Clases.Empleado" FixedFromPoint="true">
+      <Path>
+        <Point X="5.438" Y="2.632" />
+        <Point X="5.438" Y="3.007" />
+        <Point X="6.438" Y="3.007" />
+        <Point X="6.438" Y="2.125" />
+        <Point X="8.5" Y="2.125" />
+        <Point X="8.5" Y="2.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAQAAAgAAAAAAgAAAAAAAgCAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\EmpleadoFijo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculoSueldo.Clases.EmpleadoPorHora">
+    <Position X="1.25" Y="2.5" Width="1.5" />
+    <InheritanceLine Type="CalculoSueldo.Clases.Empleado" FixedFromPoint="true">
+      <Path>
+        <Point X="5.062" Y="2.632" />
+        <Point X="5.062" Y="3.007" />
+        <Point X="3.125" Y="3.007" />
+        <Point X="3.125" Y="2.125" />
+        <Point X="2" Y="2.125" />
+        <Point X="2" Y="2.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\EmpleadoPorHora.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculoSueldo.Clases.Nomina">
+    <Position X="3.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAQAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\Nomina.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
